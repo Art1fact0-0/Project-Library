@@ -1,0 +1,37 @@
+.new-book-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.book-card {
+    border: 2px solid gray;
+}
+
+.toggle-read-btn {
+    background-color: rgb(255, 126, 126);
+}
+
+#new-book-form {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 400px;
+    margin-top: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#new-book-form label,
+#new-book-form input[type='text'],
+#new-book-form input[type='checkbox'] {
+    display: block;
+    margin-bottom: 10px; /* Добавляем отступ между элементами */
+}
